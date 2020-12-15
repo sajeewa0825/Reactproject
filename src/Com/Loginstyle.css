@@ -1,0 +1,41 @@
+
+.login-parent{
+ background-color: aqua;
+ margin-top: 30vh;
+ width: 40%;
+ height: 100vh;
+ margin-left: auto;
+ margin-right: 5%;
+ display: flex;
+}
+
+.loginname{
+    background-color: rgb(209, 178, 178);
+    border:4px solid rgb(61, 68, 60);
+    height: 70vh;
+    width: 40%;
+    text-align: center;
+    display: flex;
+
+}
+.title{
+    margin: auto;
+}
+ .loginform{
+    border:4px solid rgb(61, 68, 60);
+    height: 70vh;
+    width: 60%;
+    padding: 2%;
+ }   
+
+
+
+.btnsubmit{
+    color: white;
+    background-color: #563d7c;
+    width: 100%;
+    margin-top: 5vh;
+}
+  .text{
+      margin: auto;
+  }
