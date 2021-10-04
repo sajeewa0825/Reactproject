@@ -1,8 +1,10 @@
 
 import './App.css';
-import Login from './Com/Login' ;
-import Singup from './Com/Singup';
-import Navi from './Com/Navi'
+import Login from './Components/Login' ;
+import Singup from './Components/Singup';
+import Home from './Components/Home';
+import Navi from './Components/Navi'
+import Footer from './Components/Footer';
 import { BrowserRouter as Route,Switch,Link  } from 'react-router-dom';
 
 
@@ -16,10 +18,9 @@ function App() {
           <Route path="/Singup"><Singup/></Route>
         </Switch>
       </Route>
-      <div className="Mainfont">
-        <h1 className="Mainfont">Alone</h1>
-      </div>
-    
+        <Home/>
+        <Footer/>
+
     </div>
   );
 }
